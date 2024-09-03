@@ -80,7 +80,7 @@ for i in range(1,Rows):
             add_cleaned = ascii_rem(add)
             
 
-            cadd = geocoder.google(add_cleaned  , language = "en" , key = "AIzaSyDn53t2Z5bGOBeL-iK8ARWJhuT8o-mspjc")
+            cadd = geocoder.google(add_cleaned  , language = "en" , key = "your key here")
             print(i , cadd.latlng , cadd.quality ,cadd.country)
 
     S_no = ws1.cell(row = i+1, column = 1) 
